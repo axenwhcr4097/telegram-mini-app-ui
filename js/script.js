@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultDiv = document.getElementById('result');
 
     // **QUAN TRỌNG:** Thay thế URL này bằng URL backend của bạn trên Render
-    const API_ENDPOINT = 'https://telegram-downloader-api.onrender.com';
+    const API_ENDPOINT = 'https://telegram-downloader-api.onrender.com/download';
 
     downloadBtn.addEventListener('click', async () => {
         const url = videoUrlInput.value.trim();
